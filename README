@@ -1,0 +1,14 @@
+Project to scrape data about United States hotels from tripadvisor.com.
+
+Usage
+-----
+
+In project folder type command:
+
+	scrapy crawl hotels --nolog -o output.csv -t csv #To create csv of the scraped data 
+	
+	scrapy crawl hotels --nolog -o output.json -t json #To create json of the scraped data
+	
+	
+You can also have a look at the sample files generated via these commands
+
